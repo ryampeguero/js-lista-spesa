@@ -1,7 +1,5 @@
 const shoppingList = ["latte", "biscotti", "pasta", "formaggio"];
 
-// Create Element method
-
 let listElem = document.querySelector(".shopping-list");
 let i = 0;
 
@@ -20,12 +18,3 @@ while(i < shoppingList.length){
   listElem.append(listItemElem);
   i++
 }
-
-const x = 4;
-const y = 4;
-console.log(x === y);
-
-const array1 = [1,2,7,10];
-const array2 = [1,2,7,10];
-
-console.log(array1 === array2);
